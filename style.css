@@ -1,0 +1,321 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+
+.navs{
+    background-image: url("./img/hero-bg.png");
+    background-color: hsl(215, 58%, 13%);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+
+}
+.nav{
+    display: flex;
+    gap: 33%;
+}
+.navlogo{
+    color: white;
+    position: relative;
+    left: 40px;
+    font-weight: 800;
+}
+.navlist{
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    color: rgba(205, 196, 196, 0.749);
+    margin-top: 10rem;
+    position: relative;
+    bottom: 120px;
+}
+.navbtn{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 6px;
+    padding: 15px;
+}
+.btn{
+    position: relative;
+    bottom: 10px;
+}
+
+
+
+.search{
+    right: 17%;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 15px;
+    position: relative;
+    top: 0%;
+    z-index: 11111;
+}
+.myhero{
+    display: flex;
+    margin-top: 250px;
+    padding: 40px;
+}
+.heroimg{
+   height: 350px;
+   position: relative;
+   bottom: 80%;
+   left: 40%;
+}
+
+.hero{
+    color: white;
+    position: relative;
+    bottom: 90%;
+    font-size: 55px;
+    font-weight:600;
+    
+}
+.dblock{
+    display: block;
+}
+.herop{
+    position: relative;
+    bottom: 95%;
+    color: white;
+    
+}
+
+.herobtn{
+    display: flex;
+    border: 3px solid white;
+    justify-content: space-between;
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 530px;
+    left: 40px;
+}
+.herobutton{
+    color: white;
+    background-color:  blue;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    right: 10px;
+    top: 5px;
+    height: 50px;
+    font-size: 20px;
+    width: 130px;
+}
+.herozip{
+    position: relative;
+    left: 10px;
+    
+}
+
+.herocode{
+    list-style: none;
+    display: flex;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    gap: 70px;
+    position: relative;
+    bottom: 530px;
+    left: 30px;
+} 
+
+.zipper{
+    border: none;
+    border-radius: 5px;
+    padding: 25px 10px;
+    width: 80%;
+  
+}
+
+.zinput{
+    position: relative;
+    bottom: 90%;
+    display: grid;
+}
+
+.stat{
+    display: flex;
+    gap: 60px;
+    position: relative;
+    left: 2%;
+    
+}
+
+.stats{
+    color: white;
+    
+}
+
+.stats h1{
+    font-weight: 600;
+}
+
+
+.stat p{
+    position: relative;
+    top: 2%;
+    border-top: 2px solid rgb(55, 55, 221);
+    border-top-width: 4px;
+    padding: 10px 0px;
+    font-weight: 500;
+
+}
+
+.herowords{
+    list-style: none;
+    display: flex;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    gap: 85px;
+    position: relative;
+    bottom: 530px;
+    left: 30px;
+}
+.myherolist{
+    display: flex;
+    gap: 90px;
+    position: relative;
+    left: 30px;
+}
+.lorem{
+    position: relative;
+    left: 80px;
+}
+.mylorem{
+    display: flex;
+    gap: 150px;
+}
+.lmore{
+    font-weight: bolder;
+}
+.aboutcolor{
+    color:  rgb(19, 19, 145);
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    
+}
+.aboutus{
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+.aboutlist{
+    color:  rgb(22, 22, 119);
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+.aboutuslist{
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+.aboutusimg{
+    position: relative;
+    left: 40px;
+    top: 70px;
+}
+.imglist{
+    display: flex;
+    justify-content: space-evenly;
+}
+.editall{
+    color: rgb(31, 31, 146);
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.loremtruck{
+    margin-top: 7%;
+    display: flex;
+    gap: 15px;
+}
+
+.loremlogo{
+    display: flex;
+    gap: 10px;
+    padding: 0px 30px;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    color: rgb(27, 27, 152);
+    position: relative;
+    bottom: 10px;
+}
+
+.image img{
+    height: 400px;
+    position: relative;
+    bottom: 380px;
+}
+.aboutusullamco{
+    display: flex;
+    gap: 10px;
+    position: relative;
+    top: 10px;
+}
+.aboutusmagnam{
+    display: flex;
+    gap: 10px;
+    position: relative;
+    top: 10px;
+}
+.aboutusvolu{
+    display: flex;
+    gap: 10px;
+    position: relative;
+    top: 10px;
+}
+.aboutushero{
+    padding: 100px 40px;
+    
+}
+.services{
+    color: rgb(14, 14, 172);
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+}
+.myservices{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.myservices p{
+    line-height: 25px;
+}
+.myservices h4{
+    color: rgb(14, 14, 172);
+}
+.actionimg{
+    height: 350px;
+    width: 1160px;
+}
+.actiontext{
+    color: white;
+    position: relative;
+    bottom: 250px;
+    text-align: center;
+}
+.ctabtn{
+    background-color: none;
+    padding: 10px 40px;
+    color: none;
+    border-radius: 5px;
+    border: none;
+    border-color: blueviolet;
+}
